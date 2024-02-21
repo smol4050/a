@@ -9,7 +9,7 @@ function login() {
   if (nombreUsuario === usuario && contrasenaUsuario === contrasena) {
     // Iniciar sesión y redirigir a la página principal
     alert("¡Bienvenido!");
-    window.location.href = "index.html";
+    window.location.href = "index.html"; // Puedes cambiar "index.html" por la página que deseas redirigir después del inicio de sesión
   } else {
     // Mostrar mensaje de error
     alert("Usuario o contraseña incorrectos.");
@@ -79,5 +79,3 @@ function moverBotonNo() {
   botonNo.style.left = `${posicionX}px`;
   botonNo.style.top = `${posicionY}px`;
 }
-
-export { login, mostrarVideo, mostrarMensajeYBotones };
